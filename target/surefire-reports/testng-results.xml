@@ -5,24 +5,24 @@
       <![CDATA[<br>Verification failure :expected [abc] but found [xyz]<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="blank" href=Mon_May_25_20_50_21_IST_2020jpg><img src=Mon_May_25_20_50_21_IST_2020jpg height=200 width=200></img><a/>]]>
+      <![CDATA[<a target="blank" href=Sat_Jun_06_12_48_20_IST_2020jpg><img src=Sat_Jun_06_12_48_20_IST_2020jpg height=200 width=200></img><a/>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
     </line>
   </reporter-output>
-  <suite name="Data Drivern Basics" duration-ms="33621" started-at="2020-05-25T20:50:21 IST" finished-at="2020-05-25T20:50:55 IST">
+  <suite name="Data Drivern Basics" duration-ms="46435" started-at="2020-06-06T12:48:20 IST" finished-at="2020-06-06T12:49:06 IST">
     <groups>
     </groups>
-    <test name="Bank Manager Login Test" duration-ms="10231" started-at="2020-05-25T20:50:21 IST" finished-at="2020-05-25T20:50:31 IST">
+    <test name="Bank Manager Login Test" duration-ms="10507" started-at="2020-06-06T12:48:20 IST" finished-at="2020-06-06T12:48:30 IST">
       <class name="com.w2a.testcases.BankManagerLoginTest">
-        <test-method status="PASS" signature="bankManagerloginTest()[pri:0, instance:com.w2a.testcases.BankManagerLoginTest@6cb107fd]" name="bankManagerloginTest" duration-ms="6607" started-at="2020-05-25T20:50:21 IST" finished-at="2020-05-25T20:50:28 IST">
+        <test-method status="PASS" signature="bankManagerloginTest()[pri:0, instance:com.w2a.testcases.BankManagerLoginTest@3ad83a66]" name="bankManagerloginTest" duration-ms="9707" started-at="2020-06-06T12:48:20 IST" finished-at="2020-06-06T12:48:30 IST">
           <reporter-output>
             <line>
               <![CDATA[<br>Verification failure :expected [abc] but found [xyz]<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="blank" href=Mon_May_25_20_50_21_IST_2020jpg><img src=Mon_May_25_20_50_21_IST_2020jpg height=200 width=200></img><a/>]]>
+              <![CDATA[<a target="blank" href=Sat_Jun_06_12_48_20_IST_2020jpg><img src=Sat_Jun_06_12_48_20_IST_2020jpg height=200 width=200></img><a/>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -31,9 +31,9 @@
         </test-method> <!-- bankManagerloginTest -->
       </class> <!-- com.w2a.testcases.BankManagerLoginTest -->
     </test> <!-- Bank Manager Login Test -->
-    <test name="Add Customer Test" duration-ms="14280" started-at="2020-05-25T20:50:33 IST" finished-at="2020-05-25T20:50:47 IST">
+    <test name="Add Customer Test" duration-ms="15061" started-at="2020-06-06T12:48:38 IST" finished-at="2020-06-06T12:48:53 IST">
       <class name="com.w2a.testcases.AddCustomerTest">
-        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@4b8d604b]" name="addCustomerTest" duration-ms="4789" started-at="2020-05-25T20:50:33 IST" data-provider="dp" finished-at="2020-05-25T20:50:38 IST">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@30f842ca]" name="addCustomerTest" duration-ms="5067" started-at="2020-06-06T12:48:39 IST" data-provider="dp" finished-at="2020-06-06T12:48:44 IST">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@4b8d604b]" name="addCustomerTest" duration-ms="3" started-at="2020-05-25T20:50:38 IST" data-provider="dp" finished-at="2020-05-25T20:50:38 IST">
+        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@30f842ca]" name="addCustomerTest" duration-ms="3" started-at="2020-06-06T12:48:44 IST" data-provider="dp" finished-at="2020-06-06T12:48:44 IST">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at org.testng.TestRunner$$Lambda$369/1011044643.accept(Unknown Source)
+at org.testng.TestRunner$$Lambda$369/1523649562.accept(Unknown Source)
 at java.util.ArrayList.forEach(ArrayList.java:1249)
 at org.testng.TestRunner.privateRun(TestRunner.java:766)
 at org.testng.TestRunner.run(TestRunner.java:587)
@@ -98,7 +98,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@4b8d604b]" name="addCustomerTest" duration-ms="4304" started-at="2020-05-25T20:50:38 IST" data-provider="dp" finished-at="2020-05-25T20:50:42 IST">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@30f842ca]" name="addCustomerTest" duration-ms="4355" started-at="2020-06-06T12:48:44 IST" data-provider="dp" finished-at="2020-06-06T12:48:48 IST">
           <params>
             <param index="0">
               <value>
@@ -109,7 +109,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@4b8d604b]" name="addCustomerTest" duration-ms="4390" started-at="2020-05-25T20:50:42 IST" data-provider="dp" finished-at="2020-05-25T20:50:47 IST">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@30f842ca]" name="addCustomerTest" duration-ms="4310" started-at="2020-06-06T12:48:49 IST" data-provider="dp" finished-at="2020-06-06T12:48:53 IST">
           <params>
             <param index="0">
               <value>
@@ -122,13 +122,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
         </test-method> <!-- addCustomerTest -->
       </class> <!-- com.w2a.testcases.AddCustomerTest -->
     </test> <!-- Add Customer Test -->
-    <test name="Open Account Test" duration-ms="7240" started-at="2020-05-25T20:50:47 IST" finished-at="2020-05-25T20:50:55 IST">
+    <test name="Open Account Test" duration-ms="6886" started-at="2020-06-06T12:48:59 IST" finished-at="2020-06-06T12:49:06 IST">
       <class name="com.w2a.testcases.OpenAccountTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.testcases.OpenAccountTest@14fc5f04]" name="setUp" is-config="true" duration-ms="9083" started-at="2020-05-25T20:50:12 IST" finished-at="2020-05-25T20:50:21 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.testcases.OpenAccountTest@7b4c50bc]" name="setUp" is-config="true" duration-ms="13320" started-at="2020-06-06T12:48:06 IST" finished-at="2020-06-06T12:48:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.OpenAccountTest@14fc5f04]" name="openAccountTest" duration-ms="7024" started-at="2020-05-25T20:50:47 IST" data-provider="dp" finished-at="2020-05-25T20:50:54 IST">
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.OpenAccountTest@7b4c50bc]" name="openAccountTest" duration-ms="6648" started-at="2020-06-06T12:48:59 IST" data-provider="dp" finished-at="2020-06-06T12:49:06 IST">
           <params>
             <param index="0">
               <value>
@@ -139,7 +139,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAccountTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.OpenAccountTest@14fc5f04]" name="tearDown" is-config="true" duration-ms="2276" started-at="2020-05-25T20:50:55 IST" finished-at="2020-05-25T20:50:57 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.OpenAccountTest@7b4c50bc]" name="tearDown" is-config="true" duration-ms="1258" started-at="2020-06-06T12:49:14 IST" finished-at="2020-06-06T12:49:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

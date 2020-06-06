@@ -35,7 +35,7 @@ public class TestBase {
 	// Jenkins
 	// Logs --> log4j jar, .log, log4j properties, Logger
 	// DataProvider
-
+// changemade
 	public static WebDriver driver;
 	public static Properties config = new Properties();
 	public static Properties OR = new Properties();
@@ -46,6 +46,7 @@ public class TestBase {
 	public static WebDriverWait wait;
 	public ExtentReports rep = ExtentManager.getInstance();
 	public static ExtentTest test;
+	public static String browser;
 
 	@BeforeSuite
 	public void setUp() {
@@ -78,17 +79,32 @@ public class TestBase {
 				e.printStackTrace();
 			}
 
+//jenkins browser selection:
+
+			if (System.getenv("browser") != null && !System.getenv("browser").isEmpty()) {
+
+				browser = System.getenv("browser");
+			} else {
+				browser = config.getProperty("browser");
+			}
+			config.setProperty("browser", browser);
+
+//Browser setup:
 			if (config.getProperty("browser").equals("firefox")) {
-				WebDriverManager.firefoxdriver().setup();
+				System.setProperty("webdriver.gecko.driver",
+						"C:\\Users\\shubhamrmrs\\eclipse-swing-workspace\\DataDrivenFrameWork\\src\\test\\resources\\executables\\geckodriver.exe");
+
+				log.debug("firefox launched !!");
 				driver = new FirefoxDriver();
+
+				// WebDriverManager.firefoxdriver().setup();
 			} else if (config.getProperty("browser").equals("chrome")) {
 				System.setProperty("webdriver.chrome.driver",
 						"C:\\Users\\shubhamrmrs\\eclipse-swing-workspace\\DataDrivenFrameWork\\src\\test\\resources\\executables\\chromedriver.exe");
 
 				log.debug("chrome launched !!");
-
-				// WebDriverManager.firefoxdriver().setup();
 				driver = new ChromeDriver();
+
 			} else if (config.getProperty("browser").equals("ie")) {
 				WebDriverManager.iedriver().setup();
 				driver = new InternetExplorerDriver();
